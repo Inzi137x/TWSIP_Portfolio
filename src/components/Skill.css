@@ -1,0 +1,72 @@
+.skill-container {
+  margin-top: 100px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-heading {
+  height: 90%;
+  width: 90%;
+}
+.skill-heading > h3 {
+  text-align: center;
+  height: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 10px;
+  color: #ed6339;
+}
+
+.logo-container {
+  margin-top: 20px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+  row-gap: 50px;
+}
+
+.logo-div {
+  background-color: var(--body_color);
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px 0 black, 0 2px 15px 0 black;
+}
+
+@media only screen and (max-width: 767px) {
+  .skill-container {
+    margin-top: 50%;
+    height: auto;
+  }
+
+  .skill-heading {
+    height: auto;
+    width: 100%;
+  }
+
+  .skill-heading > h3 {
+    height: auto;
+    font-size: 24px;
+  }
+
+  .logo-container {
+    height: auto;
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+  }
+
+  .logo-div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}

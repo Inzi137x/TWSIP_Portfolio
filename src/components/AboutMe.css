@@ -1,0 +1,65 @@
+.aboutme-container {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutme-container > div > h3 {
+  text-align: center;
+  height: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 10px;
+  color: #ed6339;
+}
+
+.aboutme-contents {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.aboutme-contents > p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--text_black_white_invert);
+  max-width: 600px;
+  box-shadow: 0 4px 6px 0 black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--body_color);
+}
+
+.aboutme-contents > div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme-contents > div > img {
+  width: 100%;
+  border-radius: 20px;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutme-contents {
+    flex-direction: column;
+  }
+
+  .aboutme-contents > p {
+    margin-bottom: 20px;
+  }
+}

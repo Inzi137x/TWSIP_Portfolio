@@ -1,0 +1,138 @@
+.card-container {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-heading {
+  height: 100%;
+  width: 80%;
+}
+
+.project-heading > h3 {
+  text-align: center;
+  height: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 10px;
+  color: #ed6339;
+}
+
+.projects-div {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  row-gap: 80px;
+  column-gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.project-card {
+  border-radius: 20px;
+  width: 320px;
+  padding-bottom: 20px;
+  height: 500px;
+  background-color: var(--body_color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 6px 0 black, 0 2px 15px 0 black;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.13);
+}
+
+.project-card > img {
+  margin-top: 30px;
+  width: 250px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px 0 rgb(50, 50, 50), 0 2px 15px 0 rgb(48, 48, 48);
+}
+
+.project-card > h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #ed6339;
+}
+
+.project-card > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--button_text_color);
+  padding: 10px;
+  text-align: center;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.project-buttons :nth-child(1) {
+  border: none;
+  background-color: var(--button_2_color);
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+.project-buttons :nth-child(2) {
+  border: none;
+  background-color: #948b86;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .card-container {
+    margin-top: 100%;
+
+    height: auto;
+  }
+
+  .projects-div {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 70px;
+    padding: 0 10px;
+  }
+
+  .project-card {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 30px;
+  }
+}
