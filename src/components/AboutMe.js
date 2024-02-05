@@ -13,7 +13,9 @@ export default function AboutMe() {
           Kolkata (2022), passionate about Web Development with a focus on{" "}
           <span>ReactJS</span> , <span> NextJS</span>, and currently learning{" "}
           <span> Backend</span> technologies like{" "}
-          <span> NodeJS, Express, MongoDB</span>.<br></br>
+          <span> NodeJS, Express, MongoDB</span>. I also use{" "}
+          <span>AI tools</span> to make my development easier as a Web
+          Developer.<br></br>
           <br></br>I am solving problems on leetcode demonstrating my commitment
           to continuous learning and honing my problem-solving skills and
           algorithms.

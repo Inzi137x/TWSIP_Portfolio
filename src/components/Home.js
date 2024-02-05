@@ -100,10 +100,10 @@ export default function Home() {
           </h2>
           <h1>Fullstack Developer based in India</h1>
           <h3>
-            My name is Inzamamul Haque, a fullstack developer with the goal of
-            advancing my career and participating in inspiring projects. Here, I
-            showcase my work and my passion for web development. Let's shape
-            digital solutions together and pave the way for the future!
+            My name is Inzamamul Haque, a fullstack developer passionate about
+            web development. I'm dedicated to advancing my career and
+            contributing to inspiring projects. Let's shape digital solutions
+            together and pave the way for the future!"
           </h3>
         </div>
         <div className="contact-btn">
