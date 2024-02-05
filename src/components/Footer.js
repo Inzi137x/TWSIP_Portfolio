@@ -49,7 +49,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://palas.ihih@gmail.com"
+            href="mailto:palas.ihih@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
