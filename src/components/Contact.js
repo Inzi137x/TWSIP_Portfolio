@@ -30,11 +30,11 @@ export default function Contact() {
       <h2>Drop me a message, and I'll reach out to you soon.</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="user_name" autocomplete="off" />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email" autocomplete="off" />
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message" autocomplete="off" />
         <input id="form-submit-btn" type="submit" value="Send" />
       </form>
     </div>
