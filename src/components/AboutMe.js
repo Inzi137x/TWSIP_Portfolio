@@ -9,10 +9,19 @@ export default function AboutMe() {
       </div>
       <div className="aboutme-contents">
         <p>
-          I am a software engineering graduate from Amity University Kolkata. I
-          am passionate about Web Development using ReactJS, NextJS. Learning
-          new things always excites me, and I am constantly seeking new
-          challenges to expand my knowledge and skills.
+          I'm a recent Software Engineering graduate from Amity University
+          Kolkata (2022), passionate about Web Development with a focus on{" "}
+          <span>ReactJS</span> , <span> NextJS</span>, and currently learning{" "}
+          <span> Backend</span> technologies like{" "}
+          <span> NodeJS, Express, MongoDB</span>.<br></br>
+          <br></br>I am solving problems on leetcode demonstrating my commitment
+          to continuous learning and honing my problem-solving skills and
+          algorithms.
+          <br></br>
+          <br></br>
+          <span>(Available For Hiring Full Time)</span>
+          <br></br>
+          Email: <span>palas.ihih@gmail.com</span>
         </p>
         <div>
           <img src="images/pngwing.com.png" alt="AboutMe"></img>

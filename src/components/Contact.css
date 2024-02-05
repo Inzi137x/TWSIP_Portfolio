@@ -39,8 +39,8 @@
   flex-direction: column;
   padding: 20px;
   gap: 10px;
-  width: 55%;
-  height: 70%;
+  width: 43%;
+  height: 65%;
   box-shadow: 0 4px 6px 0 black, 6px 2px 18px 0 black;
   border-radius: 20px;
   background-color: var(--body_color);
@@ -52,14 +52,14 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 25px;
-  width: 70%;
+  width: 80%;
   color: var(--text_black_white_invert);
   padding: 10px;
 }
 
 .contact-form > form > input {
   height: 50px;
-  width: 70%;
+  width: 80%;
   border: none;
   background-color: var(--body_color_invert);
   box-shadow: 0 4px 6px 0 black, 6px 2px 18px 0 black;
@@ -95,7 +95,7 @@
 
 .contact-form > form > textarea {
   height: 250px;
-  width: 70%;
+  width: 80%;
   border: none;
   background-color: var(--body_color_invert);
   box-shadow: 0 4px 6px 0 black, 6px 2px 18px 0 black;
