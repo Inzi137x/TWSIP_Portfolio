@@ -1,6 +1,6 @@
 .skill-container {
   margin-top: 100px;
-  height: auto;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .logo-container {
-  margin-top: 20px;
+  margin-top: 50px;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -1,6 +1,6 @@
 .aboutme-container {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -15,16 +15,18 @@
   font-size: 30px;
   padding: 10px;
   color: #ed6339;
+  margin-top: 30px;
 }
 
 .aboutme-contents {
-  width: 80%;
-  height: auto;
+  max-width: 90%;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 30px;
+  margin-top: 60px;
+  padding: 30px;
 }
 
 .aboutme-contents > p {
@@ -33,8 +35,9 @@
   font-weight: 400;
   font-size: 22px;
   color: var(--text_black_white_color);
-  max-width: 600px;
+  max-width: 800px;
   padding: 20px;
+  min-height: 60%;
 }
 
 .aboutme-contents > p > span {
@@ -63,5 +66,19 @@
 
   .aboutme-contents > p {
     margin-bottom: 20px;
+    font-size: 30px;
+    width: 100%;
+  }
+  .aboutme-contents {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .aboutme-contents > div {
+    width: 100%;
+    height: 100%;
+  }
+  .aboutme-contents > p > span {
+    font-size: 25px;
   }
 }
