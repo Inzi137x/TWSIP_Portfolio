@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import ResumePdf from "./My Resume/Inzamamul's Resume.pdf";
+import ResumePdf from "./My Resume/Inzamamul Haque Resume.pdf";
 
 export default function Home() {
   return (
