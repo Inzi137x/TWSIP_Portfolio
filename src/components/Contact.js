@@ -23,6 +23,10 @@ export default function Contact() {
           console.log(error.text);
         }
       );
+    let itms = document.querySelectorAll(".userinputs");
+    for (let itm of itms) {
+      itm.value = "";
+    }
   };
   return (
     <div className="contact-form" id="contact">
@@ -30,11 +34,21 @@ export default function Contact() {
       <h2>Drop me a message, and I'll reach out to you soon.</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" autocomplete="off" />
+        <input
+          type="text"
+          name="user_name"
+          autocomplete="off"
+          className="userinputs"
+        />
         <label>Email</label>
-        <input type="email" name="user_email" autocomplete="off" />
+        <input
+          type="email"
+          name="user_email"
+          autocomplete="off"
+          className="userinputs"
+        />
         <label>Message</label>
-        <textarea name="message" autocomplete="off" />
+        <textarea name="message" autocomplete="off" className="userinputs" />
         <input id="form-submit-btn" type="submit" value="Send" />
       </form>
     </div>
