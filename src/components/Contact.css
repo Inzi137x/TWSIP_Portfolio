@@ -39,7 +39,7 @@
   flex-direction: column;
   padding: 20px;
   gap: 10px;
-  width: 43%;
+  width: 40%;
   height: 65%;
   box-shadow: 0 4px 6px 0 black, 6px 2px 18px 0 black;
   border-radius: 20px;
@@ -94,7 +94,7 @@
 }
 
 .contact-form > form > textarea {
-  height: 250px;
+  min-height: 200px;
   width: 80%;
   border: none;
   background-color: var(--body_color_invert);
@@ -110,6 +110,40 @@
 
 .contact-form > form > textarea :focus {
   border: 3px solid #ed6339;
+}
+
+.success-message,
+.error-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.success-message {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}
+
+.success-message,
+.error-message {
+  opacity: 1;
+  animation: fadeOut 7s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 650px) {
