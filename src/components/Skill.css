@@ -41,10 +41,10 @@
   border-radius: 15px;
   box-shadow: 0 4px 6px 0 black, 0 2px 15px 0 black;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 
-.logo-container :hover {
-  transition: transform 0.3s;
+.logo-div:hover {
   transform: scale(1.05);
 }
 
