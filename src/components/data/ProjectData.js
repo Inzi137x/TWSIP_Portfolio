@@ -2,7 +2,7 @@ const projectData = [
   {
     image: "images/portfolio-project-image.png",
     title: "My Portfolio App",
-    description: "A Portfolio App which is built using React.js.",
+    description: "My Portfolio App which is built using React.js.",
     gitHubLink: "#github",
     liveLink: "#home-section",
   },
