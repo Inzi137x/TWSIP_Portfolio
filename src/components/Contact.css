@@ -112,6 +112,14 @@
   border: 3px solid #ed6339;
 }
 
+.display-box {
+  height: 80px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .success-message,
 .error-message {
   margin-top: 10px;

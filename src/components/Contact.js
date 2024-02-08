@@ -81,15 +81,17 @@ export default function Contact() {
         <input id="form-submit-btn" type="submit" value="Send" />
       </form>
 
-      {status === "success" && (
-        <p className="success-message">Email sent successfully!</p>
-      )}
-      {status === "error" && (
-        <p className="error-message">Email not sent. Please try again.</p>
-      )}
-      {status === "empty" && (
-        <p className="error-message">Please fill in all the fields.</p>
-      )}
+      <div className="display-box">
+        {status === "success" && (
+          <p className="success-message">Email sent successfully!</p>
+        )}
+        {status === "error" && (
+          <p className="error-message">Email not sent. Please try again.</p>
+        )}
+        {status === "empty" && (
+          <p className="error-message">Please fill in all the fields.</p>
+        )}
+      </div>
     </div>
   );
 }
